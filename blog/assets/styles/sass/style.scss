@@ -13,6 +13,11 @@ body
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
     
+    span
+    {
+        text-transform: uppercase;
+    }
+    
     & > header
     {
         width: 100vw;
@@ -55,7 +60,367 @@ body
                     font-size: 2em;
                 }
             }
+            
+            & > section:first-of-type
+            {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                background-color: white;
+                
+                article:first-of-type
+                {
+                    grid-column: 1 / 2;
+                    grid-row: 1 / 2;
+                    background-color: white;
+                    
+                    header
+                    {
+                        figure
+                        {
+                            margin: auto;
+                            padding-left: 1em;
+                            padding-top: 2em;
+                            
+                            img
+                            {
+                                height: 30vh;
+                                width: 29vw;
+                                
+                            }
+                        }
+                        
+                        h3
+                        {
+                            margin: auto;
+                            padding-left: 1em;
+                        }
+                    }
+                    
+                    p
+                    {
+                        padding-right: 1em;
+                    }
+                    
+                    section
+                    {
+                        margin: auto;
+                        padding-left: 1.2em;
+                        
+                        header
+                        {
+                            padding-top: 1em;
+                            
+                            h4
+                            {
+                                margin: auto;
+                                padding-left: 0;
+                            }
+                        }
+                    }
+                }
+                
+                article:nth-of-type(2)
+                {
+                    grid-column: 2 / 3;
+                    grid-row: 1 / 2;
+                    background-color: white;
+                    
+                    
+                    header
+                    {
+                        figure
+                        {
+                            margin: auto;
+                            padding-right: 1em;
+                            padding-top: 2em;
+                            
+                            img
+                            {
+                                height: 30vh;
+                                width: 29vw;
+                                
+                            }
+                        }
+                        
+                        h3
+                        {
+                            margin: auto;
+                            padding-right: 1em;
+                        }
+                    }
+                    
+                    p
+                    {
+                        padding-right: 1em;
+                    }
+                    
+                    section
+                    {
+                        margin: auto;
+                        padding-right: 1.2em;
+                        
+                        header
+                        {
+                            padding-top: 1em;
+                            
+                            h4
+                            {
+                                margin: auto;
+                                padding-left: 0;
+                            }
+                        }
+                    }
+                }
+                
+                article:nth-of-type(3)
+                {
+                    grid-column: 1 / 2;
+                    grid-row: 2 / 3;
+                    background-color: white;
+                    
+                    
+                    header
+                    {
+                        figure
+                        {
+                            margin: auto;
+                            padding-left: 1em;
+                            padding-top: 2em;
+                            
+                            img
+                            {
+                                height: 30vh;
+                                width: 29vw;
+                                
+                            }
+                        }
+                        
+                        h3
+                        {
+                            margin: auto;
+                            padding-left: 1em;
+                        }
+                    }
+                    
+                    p
+                    {
+                        padding-right: 1em;
+                    }
+                    
+                    section
+                    {
+                        margin: auto;
+                        padding-left: 1.2em;
+                        
+                        header
+                        {
+                            padding-top: 1em;
+                            
+                            h4
+                            {
+                                margin: auto;
+                                padding-left: 0;
+                            }
+                        }
+                    }
+                }
+                
+                article:nth-of-type(4)
+                {
+                    grid-column: 2 / 3;
+                    grid-row: 2 / 3;
+                    background-color: white;
+                    
+                    
+                    header
+                    {
+                        figure
+                        {
+                            margin: auto;
+                            padding-right: 1em;
+                            padding-top: 2em;
+                            
+                            img
+                            {
+                                height: 30vh;
+                                width: 29vw;
+                                
+                            }
+                        }
+                        
+                        h3
+                        {
+                            margin: auto;
+                            padding-right: 1em;
+                        }
+                    }
+                    
+                    p
+                    {
+                        padding-right: 1em;
+                    }
+                    
+                    section
+                    {
+                        margin: auto;
+                        padding-right: 1.2em;
+                        
+                        header
+                        {
+                            padding-top: 1em;
+                            
+                            h4
+                            {
+                                margin: auto;
+                                padding-left: 0;
+                            }
+                        }
+                    }
+                }
+                
+                article:nth-of-type(5)
+                {
+                    grid-column: 1 / 2;
+                    grid-row: 3 / 4;
+                    background-color: white;
+                    
+                    
+                    header
+                    {
+                        figure
+                        {
+                            margin: auto;
+                            padding-left: 1em;
+                            padding-top: 2em;
+                            
+                            img
+                            {
+                                height: 30vh;
+                                width: 29vw;
+                                
+                            }
+                        }
+                        
+                        h3
+                        {
+                            margin: auto;
+                            padding-left: 1em;
+                        }
+                    }
+                    
+                    p
+                    {
+                        padding-right: 1em;
+                    }
+                    
+                    section
+                    {
+                        margin: auto;
+                        padding-left: 1.2em;
+                        
+                        header
+                        {
+                            padding-top: 1em;
+                            
+                            h4
+                            {
+                                margin: auto;
+                                padding-left: 0;
+                            }
+                        }
+                    }
+                }
+                
+                article:last-of-type
+                {
+                    grid-column: 2 / 3;
+                    grid-row: 3 / 4;
+                    background-color: white;
+                    
+                    
+                    header
+                    {
+                        figure
+                        {
+                            margin: auto;
+                            padding-right: 1em;
+                            padding-top: 2em;
+                            
+                            img
+                            {
+                                height: 30vh;
+                                width: 29vw;
+                                
+                            }
+                        }
+                        
+                        h3
+                        {
+                            margin: auto;
+                            padding-right: 1em;
+                        }
+                    }
+                    
+                    p
+                    {
+                        padding-right: 1em;
+                    }
+                    
+                    section
+                    {
+                        margin: auto;
+                        padding-right: 1.2em;
+                        
+                        header
+                        {
+                            padding-top: 1em;
+                            
+                            h4
+                            {
+                                margin: auto;
+                                padding-left: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        section
+        {
+            margin-left: 1em;
+            
+            h5
+            {
+                color: white;
+            }
+            
+            section
+            {
+                padding-left: 0;
+                
+                h6
+                {
+                    color: white;
+                }
+                
+                nav
+                {
+                    ul
+                    {
+                        padding-left: 0;
+                        list-style: none;
+                        
+                        li
+                        {
+                            color: white;
+                        }
+                    }
+                }
+            }
         }
         
     }
+    
 }
